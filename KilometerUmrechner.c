@@ -22,7 +22,8 @@ void main(/* arguments */) {
   else if (Einheit == 'y') {
     printf("%f Yard(s)\n",yard );
   }
-  else if (Einheit != 's', Einheit != 'm', Einheit != 'y'){      //man kann auch else () schreiben
+  else {
     puts("Bist du blöde?");
   }
+  
 }
